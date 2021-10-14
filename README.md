@@ -13,7 +13,7 @@ pip install imgetr
 
 - Output the images into the directory `./nhl_logos` using the `-o` flag.
 - Select `img` elements using `-t` flag
-- Select `img` elements containing the class `.image-logo` using the `-c` flage.
+- Select `img` elements containing the class `.image-logo` using the `-c` flag.
 - The image urls all have a similar format like `Coyotes.vresize.72.72.medium.0.png`, so lets rename them to a format like `Coyotes.png` using the `-r` flag and passing a regex selecting two groups. The first group up to the first "`.`" and the second group selecting the file extension `"([^.]+).+(\\..+$)"`.
 - Finally lets pass the `-v` flag to print out each filename to the command line as they download.
 
@@ -130,3 +130,5 @@ python3 setup.py sdist bdist_wheel
 pip install twine
 twine upload dist/*
 ```
+
+[Credentials for pypi](https://packaging.python.org/specifications/pypirc/#using-a-pypi-token) set up in `.pypirc`
