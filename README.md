@@ -3,7 +3,7 @@ A command line tool to help download images from a web page.
 
 ## Examples
 
-### Download all of the nhl logos from the fox website.
+### Download all of the NHL logos from the fox website.
 
 - Output the images into the directory `./nhl_logos` using the `-o` flag.
 - Select `img` elements using `-t` flag
@@ -90,6 +90,7 @@ optional arguments:
 
 ## TODO
 
+- [] add polite mode: set a sleep timer between requests so we don't overwhelm someones server.
 - [] add option for selenium (headless) to download images which load on the page with javascript.
 - [] add testing
 - [] add more examples
@@ -120,4 +121,6 @@ Before publishing anything
 ```sh
 python -m pip install --upgrade pip setuptools wheel
 python3 setup.py sdist bdist_wheel
+pip install twine
+twine upload dist/*
 ```
