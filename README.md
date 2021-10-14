@@ -1,6 +1,12 @@
 # imgetr
 A command line tool to help download images from a web page.
 
+## Install
+
+```sh
+pip install imgetr
+```
+
 ## Examples
 
 ### Download all of the NHL logos from the fox website.
