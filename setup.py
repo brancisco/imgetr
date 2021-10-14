@@ -17,7 +17,7 @@ setup(
     description ='Command line tool for downloading images from web page.',
     long_description = long_description,
     long_description_content_type ="text/markdown",
-    license ='GNU GENERAL PUBLIC LICENSE',
+    license ='MIT License',
     packages = find_packages(),
     entry_points ={
         'console_scripts': [

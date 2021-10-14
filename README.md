@@ -60,10 +60,10 @@ running the above produces the following output:
 
 ```
 usage: imgetr [-h] [-o [OUTPUT_DIR]]                                                                                                    
-                                  [-c class [class ...]] [-t [tag [tag ...]]]
-                                  [-q [query_key]] [-u [.ext]] [-r [regex]]
-                                  [-v]
-                                  website
+              [-c class [class ...]] [-t [tag [tag ...]]]
+              [-q [query_key]] [-u [.ext]] [-r [regex]]
+              [-v]
+              website
 
 Download images from a website.
 
